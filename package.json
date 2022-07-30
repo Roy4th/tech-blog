@@ -1,5 +1,5 @@
 {
-  "name": "techie-talk",
+  "name": "tech-blog",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ModiFir3/techie-talk.git"
+    "url": "git+https://github.com/Roy4th/tech-blog.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ModiFir3/techie-talk/issues"
+    "url": "https://github.com/Roy4th/tech-blog/issues"
   },
-  "homepage": "https://github.com/ModiFir3/techie-talk#readme",
+  "homepage": "https://github.com/Roy4th/tech-blog#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "connect-session-sequelize": "^7.1.3",

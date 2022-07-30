@@ -1,6 +1,6 @@
 <section class="container mt-1">
-    <h2 class="bg-info">Create New Post</h2>
-    <form class="new-post-form rounded border border-3">
+    <h2 class="bg-primary">Create New Post</h2>
+    <form class="new-post-form border border-3">
         <div class="d-flex justify-content-center">
             <label for="post-title">Title</label>
         </div>
@@ -25,9 +25,9 @@
     <h2>Your Posts</h2>
     <ol>
         {{#each posts}}
-        <article class="row border border-2 rounded">
-            <div class="d-flex gap-1 bg-info">
-                <a href="/post/{{id}}" class="text-decoration-none text-white fs-1">{{title}}</a>
+        <article class="row border border-2">
+            <div class="d-flex gap-1 bg-primary">
+                <a href="/post/{{id}}" class="text-decoration-none text-black fs-1">{{title}}</a>
                 <p class="pt-3">by: {{user.username}}</p>
                 <p class="pt-3">{{formate_date created_at}}</p>
             </div>

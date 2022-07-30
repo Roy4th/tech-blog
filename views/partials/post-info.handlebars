@@ -1,8 +1,8 @@
 {{#each post}}
 <div class="container p-3">
-    <article class="row border border-2 rounded">
-        <div class="d-flex gap-1 bg-info rounded">
-            <a href="/post/{{id}}" class="text-decoration-none text-white fs-1">{{title}}</a>
+    <article class="row border border-2">
+        <div class="d-flex gap-1 bg-secondary rounded">
+            <a href="/post/{{id}}" class="text-white fs-1">{{title}}</a>
             <p class="pt-3">by: {{user.username}}</p>
             <p class="pt-3">{{formate_date created_at}}</p>
         </div>
